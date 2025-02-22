@@ -153,6 +153,54 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nix-tui.dir/build.make CMakeFiles/nix-tui.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/ncurses.o: src/ncurses.cpp.o
+.PHONY : src/ncurses.o
+
+# target to build an object file
+src/ncurses.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nix-tui.dir/build.make CMakeFiles/nix-tui.dir/src/ncurses.cpp.o
+.PHONY : src/ncurses.cpp.o
+
+src/ncurses.i: src/ncurses.cpp.i
+.PHONY : src/ncurses.i
+
+# target to preprocess a source file
+src/ncurses.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nix-tui.dir/build.make CMakeFiles/nix-tui.dir/src/ncurses.cpp.i
+.PHONY : src/ncurses.cpp.i
+
+src/ncurses.s: src/ncurses.cpp.s
+.PHONY : src/ncurses.s
+
+# target to generate assembly for a file
+src/ncurses.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nix-tui.dir/build.make CMakeFiles/nix-tui.dir/src/ncurses.cpp.s
+.PHONY : src/ncurses.cpp.s
+
+src/nixos-logo.o: src/nixos-logo.cpp.o
+.PHONY : src/nixos-logo.o
+
+# target to build an object file
+src/nixos-logo.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nix-tui.dir/build.make CMakeFiles/nix-tui.dir/src/nixos-logo.cpp.o
+.PHONY : src/nixos-logo.cpp.o
+
+src/nixos-logo.i: src/nixos-logo.cpp.i
+.PHONY : src/nixos-logo.i
+
+# target to preprocess a source file
+src/nixos-logo.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nix-tui.dir/build.make CMakeFiles/nix-tui.dir/src/nixos-logo.cpp.i
+.PHONY : src/nixos-logo.cpp.i
+
+src/nixos-logo.s: src/nixos-logo.cpp.s
+.PHONY : src/nixos-logo.s
+
+# target to generate assembly for a file
+src/nixos-logo.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nix-tui.dir/build.make CMakeFiles/nix-tui.dir/src/nixos-logo.cpp.s
+.PHONY : src/nixos-logo.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -165,6 +213,12 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/ncurses.o"
+	@echo "... src/ncurses.i"
+	@echo "... src/ncurses.s"
+	@echo "... src/nixos-logo.o"
+	@echo "... src/nixos-logo.i"
+	@echo "... src/nixos-logo.s"
 .PHONY : help
 
 
