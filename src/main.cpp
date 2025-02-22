@@ -1,4 +1,6 @@
-using namespace std;
+#include <cstdlib>
+#include <string>
+//using namespace std;
 //static struct winsize term_size;
 
 //static void get_terminal_size(){
@@ -9,9 +11,11 @@ using namespace std;
 
 int main(int argc, char **argv) {
     // std::cout << "Hello World \n"; // standard C++ ouput
+    std::string command = "echo hi";
+    std::system(command.c_str());
     
     //get_terminal_size();
-    struct winsize term_size;
+    /*struct winsize term_size;
     ioctl(STDOUT_FILENO, TIOCGWINSZ, &term_size);
 
     initscr();

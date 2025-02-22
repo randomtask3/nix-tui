@@ -1,0 +1,3 @@
+/home/nick/Projects/cpp/nix-tui/build/CMakeFiles/nix-tui.dir
+/home/nick/Projects/cpp/nix-tui/build/CMakeFiles/edit_cache.dir
+/home/nick/Projects/cpp/nix-tui/build/CMakeFiles/rebuild_cache.dir

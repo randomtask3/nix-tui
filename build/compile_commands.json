@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/home/nick/Projects/cpp/nix-tui/build",
+  "command": "/nix/store/888bkaqdpfpx72dd8bdc69qsqlgbhcvf-gcc-wrapper-13.3.0/bin/g++  -I/home/nick/Projects/cpp/nix-tui/src -I/home/nick/Projects/cpp/nix-tui/include -g -o CMakeFiles/nix-tui.dir/src/main.cpp.o -c /home/nick/Projects/cpp/nix-tui/src/main.cpp",
+  "file": "/home/nick/Projects/cpp/nix-tui/src/main.cpp",
+  "output": "CMakeFiles/nix-tui.dir/src/main.cpp.o"
+}
+]
