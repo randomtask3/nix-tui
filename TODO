@@ -1,0 +1,8 @@
+Create NixOS menu:
+    -Create output for user input menu with options
+    -Add nixos-rebuild flake
+    -add nix-flake-update
+    -add garbage collection
+    -add quit
+
+Create Dev-menu
