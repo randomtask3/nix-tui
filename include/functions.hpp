@@ -7,5 +7,6 @@ using namespace std;
 
 extern string nixos;
 void printNixos();
+void printMainMenu();
 
 #endif //FUNCTIONS_H
