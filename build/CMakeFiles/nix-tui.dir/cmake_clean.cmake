@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/nix-tui.dir/src/main.cpp.o"
   "CMakeFiles/nix-tui.dir/src/main.cpp.o.d"
+  "CMakeFiles/nix-tui.dir/src/main_menu.cpp.o"
+  "CMakeFiles/nix-tui.dir/src/main_menu.cpp.o.d"
   "CMakeFiles/nix-tui.dir/src/ncurses.cpp.o"
   "CMakeFiles/nix-tui.dir/src/ncurses.cpp.o.d"
   "CMakeFiles/nix-tui.dir/src/nixos-logo.cpp.o"

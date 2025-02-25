@@ -153,6 +153,30 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nix-tui.dir/build.make CMakeFiles/nix-tui.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/main_menu.o: src/main_menu.cpp.o
+.PHONY : src/main_menu.o
+
+# target to build an object file
+src/main_menu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nix-tui.dir/build.make CMakeFiles/nix-tui.dir/src/main_menu.cpp.o
+.PHONY : src/main_menu.cpp.o
+
+src/main_menu.i: src/main_menu.cpp.i
+.PHONY : src/main_menu.i
+
+# target to preprocess a source file
+src/main_menu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nix-tui.dir/build.make CMakeFiles/nix-tui.dir/src/main_menu.cpp.i
+.PHONY : src/main_menu.cpp.i
+
+src/main_menu.s: src/main_menu.cpp.s
+.PHONY : src/main_menu.s
+
+# target to generate assembly for a file
+src/main_menu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nix-tui.dir/build.make CMakeFiles/nix-tui.dir/src/main_menu.cpp.s
+.PHONY : src/main_menu.cpp.s
+
 src/ncurses.o: src/ncurses.cpp.o
 .PHONY : src/ncurses.o
 
@@ -213,6 +237,9 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/main_menu.o"
+	@echo "... src/main_menu.i"
+	@echo "... src/main_menu.s"
 	@echo "... src/ncurses.o"
 	@echo "... src/ncurses.i"
 	@echo "... src/ncurses.s"

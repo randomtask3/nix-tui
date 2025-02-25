@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/nick/Projects/cpp/nix-tui/src/main.cpp" "CMakeFiles/nix-tui.dir/src/main.cpp.o" "gcc" "CMakeFiles/nix-tui.dir/src/main.cpp.o.d"
+  "/home/nick/Projects/cpp/nix-tui/src/main_menu.cpp" "CMakeFiles/nix-tui.dir/src/main_menu.cpp.o" "gcc" "CMakeFiles/nix-tui.dir/src/main_menu.cpp.o.d"
   "/home/nick/Projects/cpp/nix-tui/src/ncurses.cpp" "CMakeFiles/nix-tui.dir/src/ncurses.cpp.o" "gcc" "CMakeFiles/nix-tui.dir/src/ncurses.cpp.o.d"
   "/home/nick/Projects/cpp/nix-tui/src/nixos-logo.cpp" "CMakeFiles/nix-tui.dir/src/nixos-logo.cpp.o" "gcc" "CMakeFiles/nix-tui.dir/src/nixos-logo.cpp.o.d"
   )
