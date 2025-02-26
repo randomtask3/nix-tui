@@ -25,7 +25,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 14,
+				"line" : 13,
 				"parent" : 0
 			},
 			{
@@ -59,10 +59,9 @@
 			"language" : "CXX",
 			"sourceIndexes" : 
 			[
+				1,
 				2,
-				3,
-				4,
-				5
+				3
 			]
 		}
 	],
@@ -96,17 +95,16 @@
 			"sourceIndexes" : 
 			[
 				0,
-				1
+				4
 			]
 		},
 		{
 			"name" : "Source Files",
 			"sourceIndexes" : 
 			[
+				1,
 				2,
-				3,
-				4,
-				5
+				3
 			]
 		}
 	],
@@ -114,12 +112,7 @@
 	[
 		{
 			"backtrace" : 1,
-			"path" : "include/functions.hpp",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 1,
-			"path" : "include/headers.hpp",
+			"path" : "src/functions.hpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -131,20 +124,19 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/main_menu.cpp",
-			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
 			"path" : "src/ncurses.cpp",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "src/nixos-logo.cpp",
+			"path" : "src/nixos_menu.cpp",
 			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"path" : "src/nixos_menu.hpp",
+			"sourceGroupIndex" : 0
 		}
 	],
 	"type" : "EXECUTABLE"

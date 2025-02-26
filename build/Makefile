@@ -153,30 +153,6 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nix-tui.dir/build.make CMakeFiles/nix-tui.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/main_menu.o: src/main_menu.cpp.o
-.PHONY : src/main_menu.o
-
-# target to build an object file
-src/main_menu.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nix-tui.dir/build.make CMakeFiles/nix-tui.dir/src/main_menu.cpp.o
-.PHONY : src/main_menu.cpp.o
-
-src/main_menu.i: src/main_menu.cpp.i
-.PHONY : src/main_menu.i
-
-# target to preprocess a source file
-src/main_menu.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nix-tui.dir/build.make CMakeFiles/nix-tui.dir/src/main_menu.cpp.i
-.PHONY : src/main_menu.cpp.i
-
-src/main_menu.s: src/main_menu.cpp.s
-.PHONY : src/main_menu.s
-
-# target to generate assembly for a file
-src/main_menu.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nix-tui.dir/build.make CMakeFiles/nix-tui.dir/src/main_menu.cpp.s
-.PHONY : src/main_menu.cpp.s
-
 src/ncurses.o: src/ncurses.cpp.o
 .PHONY : src/ncurses.o
 
@@ -201,29 +177,29 @@ src/ncurses.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/nix-tui.dir/build.make CMakeFiles/nix-tui.dir/src/ncurses.cpp.s
 .PHONY : src/ncurses.cpp.s
 
-src/nixos-logo.o: src/nixos-logo.cpp.o
-.PHONY : src/nixos-logo.o
+src/nixos_menu.o: src/nixos_menu.cpp.o
+.PHONY : src/nixos_menu.o
 
 # target to build an object file
-src/nixos-logo.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nix-tui.dir/build.make CMakeFiles/nix-tui.dir/src/nixos-logo.cpp.o
-.PHONY : src/nixos-logo.cpp.o
+src/nixos_menu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nix-tui.dir/build.make CMakeFiles/nix-tui.dir/src/nixos_menu.cpp.o
+.PHONY : src/nixos_menu.cpp.o
 
-src/nixos-logo.i: src/nixos-logo.cpp.i
-.PHONY : src/nixos-logo.i
+src/nixos_menu.i: src/nixos_menu.cpp.i
+.PHONY : src/nixos_menu.i
 
 # target to preprocess a source file
-src/nixos-logo.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nix-tui.dir/build.make CMakeFiles/nix-tui.dir/src/nixos-logo.cpp.i
-.PHONY : src/nixos-logo.cpp.i
+src/nixos_menu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nix-tui.dir/build.make CMakeFiles/nix-tui.dir/src/nixos_menu.cpp.i
+.PHONY : src/nixos_menu.cpp.i
 
-src/nixos-logo.s: src/nixos-logo.cpp.s
-.PHONY : src/nixos-logo.s
+src/nixos_menu.s: src/nixos_menu.cpp.s
+.PHONY : src/nixos_menu.s
 
 # target to generate assembly for a file
-src/nixos-logo.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/nix-tui.dir/build.make CMakeFiles/nix-tui.dir/src/nixos-logo.cpp.s
-.PHONY : src/nixos-logo.cpp.s
+src/nixos_menu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/nix-tui.dir/build.make CMakeFiles/nix-tui.dir/src/nixos_menu.cpp.s
+.PHONY : src/nixos_menu.cpp.s
 
 # Help Target
 help:
@@ -237,15 +213,12 @@ help:
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/main_menu.o"
-	@echo "... src/main_menu.i"
-	@echo "... src/main_menu.s"
 	@echo "... src/ncurses.o"
 	@echo "... src/ncurses.i"
 	@echo "... src/ncurses.s"
-	@echo "... src/nixos-logo.o"
-	@echo "... src/nixos-logo.i"
-	@echo "... src/nixos-logo.s"
+	@echo "... src/nixos_menu.o"
+	@echo "... src/nixos_menu.i"
+	@echo "... src/nixos_menu.s"
 .PHONY : help
 
 

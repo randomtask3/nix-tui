@@ -83,24 +83,10 @@ CMakeFiles/nix-tui.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nix-tui.dir/src/main.cpp.s"
 	/nix/store/888bkaqdpfpx72dd8bdc69qsqlgbhcvf-gcc-wrapper-13.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nick/Projects/cpp/nix-tui/src/main.cpp -o CMakeFiles/nix-tui.dir/src/main.cpp.s
 
-CMakeFiles/nix-tui.dir/src/main_menu.cpp.o: CMakeFiles/nix-tui.dir/flags.make
-CMakeFiles/nix-tui.dir/src/main_menu.cpp.o: /home/nick/Projects/cpp/nix-tui/src/main_menu.cpp
-CMakeFiles/nix-tui.dir/src/main_menu.cpp.o: CMakeFiles/nix-tui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nick/Projects/cpp/nix-tui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/nix-tui.dir/src/main_menu.cpp.o"
-	/nix/store/888bkaqdpfpx72dd8bdc69qsqlgbhcvf-gcc-wrapper-13.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nix-tui.dir/src/main_menu.cpp.o -MF CMakeFiles/nix-tui.dir/src/main_menu.cpp.o.d -o CMakeFiles/nix-tui.dir/src/main_menu.cpp.o -c /home/nick/Projects/cpp/nix-tui/src/main_menu.cpp
-
-CMakeFiles/nix-tui.dir/src/main_menu.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nix-tui.dir/src/main_menu.cpp.i"
-	/nix/store/888bkaqdpfpx72dd8bdc69qsqlgbhcvf-gcc-wrapper-13.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nick/Projects/cpp/nix-tui/src/main_menu.cpp > CMakeFiles/nix-tui.dir/src/main_menu.cpp.i
-
-CMakeFiles/nix-tui.dir/src/main_menu.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nix-tui.dir/src/main_menu.cpp.s"
-	/nix/store/888bkaqdpfpx72dd8bdc69qsqlgbhcvf-gcc-wrapper-13.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nick/Projects/cpp/nix-tui/src/main_menu.cpp -o CMakeFiles/nix-tui.dir/src/main_menu.cpp.s
-
 CMakeFiles/nix-tui.dir/src/ncurses.cpp.o: CMakeFiles/nix-tui.dir/flags.make
 CMakeFiles/nix-tui.dir/src/ncurses.cpp.o: /home/nick/Projects/cpp/nix-tui/src/ncurses.cpp
 CMakeFiles/nix-tui.dir/src/ncurses.cpp.o: CMakeFiles/nix-tui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nick/Projects/cpp/nix-tui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/nix-tui.dir/src/ncurses.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nick/Projects/cpp/nix-tui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/nix-tui.dir/src/ncurses.cpp.o"
 	/nix/store/888bkaqdpfpx72dd8bdc69qsqlgbhcvf-gcc-wrapper-13.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nix-tui.dir/src/ncurses.cpp.o -MF CMakeFiles/nix-tui.dir/src/ncurses.cpp.o.d -o CMakeFiles/nix-tui.dir/src/ncurses.cpp.o -c /home/nick/Projects/cpp/nix-tui/src/ncurses.cpp
 
 CMakeFiles/nix-tui.dir/src/ncurses.cpp.i: cmake_force
@@ -111,37 +97,35 @@ CMakeFiles/nix-tui.dir/src/ncurses.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nix-tui.dir/src/ncurses.cpp.s"
 	/nix/store/888bkaqdpfpx72dd8bdc69qsqlgbhcvf-gcc-wrapper-13.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nick/Projects/cpp/nix-tui/src/ncurses.cpp -o CMakeFiles/nix-tui.dir/src/ncurses.cpp.s
 
-CMakeFiles/nix-tui.dir/src/nixos-logo.cpp.o: CMakeFiles/nix-tui.dir/flags.make
-CMakeFiles/nix-tui.dir/src/nixos-logo.cpp.o: /home/nick/Projects/cpp/nix-tui/src/nixos-logo.cpp
-CMakeFiles/nix-tui.dir/src/nixos-logo.cpp.o: CMakeFiles/nix-tui.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nick/Projects/cpp/nix-tui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/nix-tui.dir/src/nixos-logo.cpp.o"
-	/nix/store/888bkaqdpfpx72dd8bdc69qsqlgbhcvf-gcc-wrapper-13.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nix-tui.dir/src/nixos-logo.cpp.o -MF CMakeFiles/nix-tui.dir/src/nixos-logo.cpp.o.d -o CMakeFiles/nix-tui.dir/src/nixos-logo.cpp.o -c /home/nick/Projects/cpp/nix-tui/src/nixos-logo.cpp
+CMakeFiles/nix-tui.dir/src/nixos_menu.cpp.o: CMakeFiles/nix-tui.dir/flags.make
+CMakeFiles/nix-tui.dir/src/nixos_menu.cpp.o: /home/nick/Projects/cpp/nix-tui/src/nixos_menu.cpp
+CMakeFiles/nix-tui.dir/src/nixos_menu.cpp.o: CMakeFiles/nix-tui.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/nick/Projects/cpp/nix-tui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/nix-tui.dir/src/nixos_menu.cpp.o"
+	/nix/store/888bkaqdpfpx72dd8bdc69qsqlgbhcvf-gcc-wrapper-13.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/nix-tui.dir/src/nixos_menu.cpp.o -MF CMakeFiles/nix-tui.dir/src/nixos_menu.cpp.o.d -o CMakeFiles/nix-tui.dir/src/nixos_menu.cpp.o -c /home/nick/Projects/cpp/nix-tui/src/nixos_menu.cpp
 
-CMakeFiles/nix-tui.dir/src/nixos-logo.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nix-tui.dir/src/nixos-logo.cpp.i"
-	/nix/store/888bkaqdpfpx72dd8bdc69qsqlgbhcvf-gcc-wrapper-13.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nick/Projects/cpp/nix-tui/src/nixos-logo.cpp > CMakeFiles/nix-tui.dir/src/nixos-logo.cpp.i
+CMakeFiles/nix-tui.dir/src/nixos_menu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/nix-tui.dir/src/nixos_menu.cpp.i"
+	/nix/store/888bkaqdpfpx72dd8bdc69qsqlgbhcvf-gcc-wrapper-13.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nick/Projects/cpp/nix-tui/src/nixos_menu.cpp > CMakeFiles/nix-tui.dir/src/nixos_menu.cpp.i
 
-CMakeFiles/nix-tui.dir/src/nixos-logo.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nix-tui.dir/src/nixos-logo.cpp.s"
-	/nix/store/888bkaqdpfpx72dd8bdc69qsqlgbhcvf-gcc-wrapper-13.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nick/Projects/cpp/nix-tui/src/nixos-logo.cpp -o CMakeFiles/nix-tui.dir/src/nixos-logo.cpp.s
+CMakeFiles/nix-tui.dir/src/nixos_menu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/nix-tui.dir/src/nixos_menu.cpp.s"
+	/nix/store/888bkaqdpfpx72dd8bdc69qsqlgbhcvf-gcc-wrapper-13.3.0/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nick/Projects/cpp/nix-tui/src/nixos_menu.cpp -o CMakeFiles/nix-tui.dir/src/nixos_menu.cpp.s
 
 # Object files for target nix-tui
 nix__tui_OBJECTS = \
 "CMakeFiles/nix-tui.dir/src/main.cpp.o" \
-"CMakeFiles/nix-tui.dir/src/main_menu.cpp.o" \
 "CMakeFiles/nix-tui.dir/src/ncurses.cpp.o" \
-"CMakeFiles/nix-tui.dir/src/nixos-logo.cpp.o"
+"CMakeFiles/nix-tui.dir/src/nixos_menu.cpp.o"
 
 # External object files for target nix-tui
 nix__tui_EXTERNAL_OBJECTS =
 
 nix-tui: CMakeFiles/nix-tui.dir/src/main.cpp.o
-nix-tui: CMakeFiles/nix-tui.dir/src/main_menu.cpp.o
 nix-tui: CMakeFiles/nix-tui.dir/src/ncurses.cpp.o
-nix-tui: CMakeFiles/nix-tui.dir/src/nixos-logo.cpp.o
+nix-tui: CMakeFiles/nix-tui.dir/src/nixos_menu.cpp.o
 nix-tui: CMakeFiles/nix-tui.dir/build.make
 nix-tui: CMakeFiles/nix-tui.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/nick/Projects/cpp/nix-tui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable nix-tui"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/nick/Projects/cpp/nix-tui/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable nix-tui"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/nix-tui.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -1,14 +1,11 @@
-#include "functions.hpp"
-#include <iostream>
-#include <string>
-
-using namespace std;
+#include "nixos_menu.hpp"
 
 int main(int argc, char **argv) {
 
     system("clear");
-    printNixos();  
-    printMainMenu();  
+    NixosMenu nixos_menu("nixos"); 
+
+    nixos_menu.print_menu();
     
     return 0;
 }
