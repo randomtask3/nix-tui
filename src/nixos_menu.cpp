@@ -45,7 +45,6 @@ string NixosMenu::print_menu() {
         //system("clear");
         cout << nixos_logo + menu_text;
         cin >> input_char;
-        //cin.get(input_char);
         cout << input_char << "\n";
 
         if (input_char == "1" || input_char == "2" || input_char == "3" || input_char == "4" ) {
