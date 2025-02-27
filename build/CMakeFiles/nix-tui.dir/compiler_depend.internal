@@ -3,6 +3,7 @@
 
 CMakeFiles/nix-tui.dir/src/main.cpp.o
  /home/nick/Projects/cpp/nix-tui/src/main.cpp
+ /home/nick/Projects/cpp/nix-tui/src/main.hpp
  /home/nick/Projects/cpp/nix-tui/src/nixos_menu.hpp
  /nix/store/62qjb50708fdhb4f2y7zxyqr1afir4fk-gcc-13.3.0/include/c++/13.3.0/backward/binders.h
  /nix/store/62qjb50708fdhb4f2y7zxyqr1afir4fk-gcc-13.3.0/include/c++/13.3.0/bit

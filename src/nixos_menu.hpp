@@ -11,12 +11,9 @@ class NixosMenu {
     string nixos_logo;
     string menu_text;
 
-    public:
-        NixosMenu(string menu_type);
-        void print_menu();
+public:
+    NixosMenu(string menu_type);
+    string print_menu();
 };
-
-void printNixos();
-void printMainMenu();
 
 #endif //NIXOS_MENU_H

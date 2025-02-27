@@ -1,6 +1,7 @@
 CMakeFiles/nix-tui.dir/src/main.cpp.o: \
  /home/nick/Projects/cpp/nix-tui/src/main.cpp \
  /nix/store/lcxvgkg659vbvdq86mhxa599wn48f35c-glibc-2.40-36-dev/include/stdc-predef.h \
+ /home/nick/Projects/cpp/nix-tui/src/main.hpp \
  /home/nick/Projects/cpp/nix-tui/src/nixos_menu.hpp \
  /nix/store/62qjb50708fdhb4f2y7zxyqr1afir4fk-gcc-13.3.0/include/c++/13.3.0/iostream \
  /nix/store/62qjb50708fdhb4f2y7zxyqr1afir4fk-gcc-13.3.0/include/c++/13.3.0/bits/requires_hosted.h \

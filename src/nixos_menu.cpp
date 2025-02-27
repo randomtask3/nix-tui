@@ -28,6 +28,7 @@ NixosMenu::NixosMenu(string menu_type){
     
     if (menu_type == "nixos"){
         menu_text = 
+            "NixOS Management Menu:\n" 
             "  (1)  -->  nixos-rebuild --flake\n"
             "  (2)  -->  nix-flake-update\n"
             "  (3)  -->  nix-collect-garbage\n"
@@ -35,6 +36,26 @@ NixosMenu::NixosMenu(string menu_type){
             "Enter option from 1 to 4 [1]: ";
     }
 }
-void NixosMenu::print_menu() {
-    cout << nixos_logo + menu_text;
+
+string NixosMenu::print_menu() {
+    bool valid_input = false;
+    string input_char;
+    
+    while (valid_input == false){
+        //system("clear");
+        cout << nixos_logo + menu_text;
+        cin >> input_char;
+        //cin.get(input_char);
+        cout << input_char << "\n";
+
+        if (input_char == "1" || input_char == "2" || input_char == "3" || input_char == "4" ) {
+            //valid_input = true;
+            cout << "test1\n";
+            cin.ignore();
+        } else {
+            cout << "test2\n";
+            cout << "\n" << "Invalid selection, press Enter to continue\n";  
+        }
+    }
+    return input_char;
 }
