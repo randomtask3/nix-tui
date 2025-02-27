@@ -33,27 +33,29 @@ NixosMenu::NixosMenu(string menu_type){
             "  (2)  -->  nix-flake-update\n"
             "  (3)  -->  nix-collect-garbage\n"
             "  (4)  -->  Quit\n\n"
-            "Enter option from 1 to 4 [1]: ";
+            "Enter option from 1 to 4: ";
     }
 }
 
 string NixosMenu::print_menu() {
     bool valid_input = false;
     string input_char;
+
+    system("clear");
+    cout << nixos_logo + menu_text;
     
-    while (valid_input == false){
-        //system("clear");
-        cout << nixos_logo + menu_text;
+    while (true){
         cin >> input_char;
-        cout << input_char << "\n";
+        //cout << input_char << "\n";
 
         if (input_char == "1" || input_char == "2" || input_char == "3" || input_char == "4" ) {
             //valid_input = true;
-            cout << "test1\n";
-            cin.ignore();
+            //cout << "test1\n";
+            
+            break;
         } else {
-            cout << "test2\n";
-            cout << "\n" << "Invalid selection, press Enter to continue\n";  
+            //cout << "test2\n";
+            cout << "Invalid, try again: ";
         }
     }
     return input_char;
