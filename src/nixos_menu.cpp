@@ -1,5 +1,6 @@
 #include "nixos_menu.hpp"
 
+// Constructor that sets variables to be used by other methods
 NixosMenu::NixosMenu(string menu_type){
     nixos_logo = 
                 "          __         ____      __ \n"
@@ -25,10 +26,13 @@ NixosMenu::NixosMenu(string menu_type){
                 "         \\__/    \\___\\        \\__/ \n"
                 "\n"
                 "=====================================================================================================================\n\n";
+
+    // Update to take an input
+    config_path = "/home/nick/NixOS";
     
     if (menu_type == "nixos"){
         menu_text = 
-            "NixOS Management Menu:\n" 
+            "NixOS Management Menu:\n\n" 
             "  (1)  -->  nixos-rebuild --flake\n"
             "  (2)  -->  nix-flake-update\n"
             "  (3)  -->  nix-collect-garbage\n"
@@ -37,26 +41,53 @@ NixosMenu::NixosMenu(string menu_type){
     }
 }
 
-string NixosMenu::print_menu() {
-    bool valid_input = false;
-    string input_char;
+string NixosMenu::get_hostname() {
+    
+    char hostname[1024];
+    gethostname(hostname, 1024);
+
+    return hostname;
+}
+
+// Menu for user input to determine shell command run
+int NixosMenu::print_menu() {
+    int menu_selection;
 
     system("clear");
     cout << nixos_logo + menu_text;
     
     while (true){
-        cin >> input_char;
-        //cout << input_char << "\n";
-
-        if (input_char == "1" || input_char == "2" || input_char == "3" || input_char == "4" ) {
-            //valid_input = true;
-            //cout << "test1\n";
-            
+        cin >> menu_selection;
+ 
+        if (menu_selection == 1 || menu_selection == 2 || menu_selection == 3 || menu_selection == 4 ) {
             break;
         } else {
-            //cout << "test2\n";
             cout << "Invalid, try again: ";
         }
     }
-    return input_char;
+    return menu_selection;
+}
+
+// Rus selected shell command
+void NixosMenu::run_command(int menu_selection, string hostname) {
+    system("clear");
+    string temp;
+
+    switch (menu_selection) {
+        case 1:
+            temp = "sudo nixos-rebuild switch --flake " + config_path + "#" + hostname;
+            system(temp.c_str());
+            break;
+        case 2:
+            temp = "cd " + config_path + ": sudo nix flake update";
+            system(temp.c_str());
+            break;
+        case 3:
+            temp = "sudo nix-collect-garbage";
+            system(temp.c_str());
+            break;
+        case 4:
+            exit(0);
+            break;
+    }
 }
